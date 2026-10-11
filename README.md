@@ -1,4 +1,7 @@
-# Hack the North 2026
+<img width="333" height="222" alt="image" src="https://github.com/user-attachments/assets/9e29f643-3852-4a0f-8bde-ba241bc4ce06" />
+
+
+# Basecase
 
 Physical AI is limited by how its hardware was programmed, not by the hardware itself. One webcam, driven by agents, becomes a people counter, a follow-cam, a security guard, a privacy camera, a traffic counter, or a typing guide. Every switch happens from one sentence, with no retraining. Applies to other pieces of hardware as well.
 
