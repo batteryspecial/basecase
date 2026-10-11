@@ -13,3 +13,8 @@ Physical AI is limited by how its hardware was programmed, not by the hardware i
 | Perception (reflex layer) | 8001 | Runs every frame: detect, track, check attributes, run behaviors, draw overlays, emit events |
 | Orchestrator (agent layer) | 8000 | LLM agent with tools. Turns instructions into behaviors and queries; reacts to events |
 | Frontend | served by 8000 | Enriched live feed, chat with image upload, agent trace, events, behaviors, switch timer |
+
+## Demo
+https://github.com/user-attachments/assets/13ea6aa6-4f38-44e5-9fa2-760f84c2c9b9
+
+
