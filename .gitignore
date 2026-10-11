@@ -12,19 +12,14 @@ venv/
 env/
 .env
 .env.*
+docs/DESIGN.md
 
-# Model weights: large, and architecture- or version-specific. Every host
-# downloads or builds its own. TensorRT engines are tied to one GPU and one
-# TensorRT version, so committing them is actively wrong.
 weights/
 *.pt
 *.pth
 *.onnx
 *.engine
-# TorchScript model artifacts only; do not ignore frontend TypeScript source.
-# Ultralytics downloads a ~570MB MobileCLIP encoder on first use and puts it
-# wherever the service was started from, which is not always weights/ — so the
-# whole of perception/ is covered. There is no TypeScript source under it.
+
 perception/**/*.ts
 perception/*.ts
 perception/weights/**/*.ts
@@ -32,8 +27,6 @@ perception/weights/*.ts
 *.safetensors
 *.bin
 
-# Recordings and run output. Clips are the test fixtures; out/ and footage/
-# are produced by scripts/clip_test.py and are regenerable.
 clips/
 out/
 footage/
