@@ -1,4 +1,4 @@
-<img width="300" height="300" alt="basecase" src="https://github.com/user-attachments/assets/c13ce675-9d15-4edd-a047-33c1cd4dc2d2" />
+<img width="378" height="314" alt="basecase" src="https://github.com/user-attachments/assets/bb8bf3ea-72b4-4aa6-a958-0e5d70e1a8f0" />
 
 # Basecase
 
